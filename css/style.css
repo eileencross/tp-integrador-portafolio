@@ -242,3 +242,17 @@ button:hover {
   margin-bottom: 1rem;
   border: 3px solid white;
 }
+.img-proyecto {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  transition: transform 0.3s ease;
+}
+
+.img-proyecto:hover {
+  transform: scale(1.1);
+}
+.img-proyecto:hover {
+  transform: scale(2.4);
+}
