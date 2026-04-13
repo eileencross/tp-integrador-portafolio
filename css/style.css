@@ -227,3 +227,18 @@ button:hover {
 .btn:hover {
   background: var(--color-primary);
 }
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* FOTO DE PERFIL */
+.perfil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid white;
+}
