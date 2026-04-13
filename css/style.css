@@ -256,3 +256,14 @@ button:hover {
 .img-proyecto:hover {
   transform: scale(2.4);
 }
+.github-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.github-link:hover {
+  color: var(--color-accent);
+}
